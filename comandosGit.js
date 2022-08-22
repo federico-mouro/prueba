@@ -26,3 +26,11 @@ let corroborarArchivoAniadidos = "git status"   //verifica los archivos subidos,
 let guardarMomentoArchivo = "git commit -m 'texto'" //con este comando podremos hacer una "linea de tiempo" de nuestro archivo con referencias del momento de guardado
 
 let mostrarRegistroCommits = "git log"  //muestra todos los commits hechos
+
+let verRepositoriosRemotos = "git remote -v"
+
+let subirGitAGithub = "git push origin master"  //todos los archivos, que se encuentre guardados y con commit en el repositorio local, se van a subir al repositorio remoto (origin), en la rama principal (master)
+
+let descargarArchivosGithub = "git clone 'link'"    //abris la terminal en la carpeta en que quieras descargar los archivos y pones este comando con el link que aparece al presionar el botón code de github
+
+let actualizarArchivoDescargadoDeGithub = "git pull origin master"   //baja todos los archivos actualizado, y también descarga nuevos (en caso de haber)
