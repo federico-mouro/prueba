@@ -19,9 +19,9 @@ let agregarArchivosGit = "git add ."    //agrega todos los archivos de la carpet
 let corroborarArchivoAniadidos = "git status"   //verifica los archivos subidos, si falta guarda algo en estos, y también menciona los archivos no subidos de la carpeta en la que se inició git
 
 //En el control de código fuente hay dos secciónes: Cambios "staged" y Cambios.
-//A la derecha del nombre del archivo hay una letra, esta hace referencencia a la inicial del estado del archivo en git. Siendo A: "added" (agregado), y M: "modified" (modificado)
-//En la sección Cambios, los archivos siempre estarán con el estado M
-//Para que pase de M a A hay que agregar el archivo a git usando el comando git add (nombre de archivo) o git add .
+//A la derecha del nombre del archivo hay una letra, esta hace referencencia a la inicial del estado del archivo en git. Siendo A: "added" (agregado), M: "modified" (modificado), y U: untracked (sin guardar)
+//En la sección Cambios, los archivos siempre estarán con el estado M o U.
+//Para que pase de "M" o "U" a "A" hay que agregar el archivo a git usando el comando git add (nombre de archivo) o git add.
 
 let guardarMomentoArchivo = "git commit -m 'texto'" //con este comando podremos hacer una "linea de tiempo" de nuestro archivo con referencias del momento de guardado
 
