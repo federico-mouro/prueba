@@ -25,3 +25,4 @@ let corroborarArchivoAniadidos = "git status"   //verifica los archivos subidos,
 
 let guardarMomentoArchivo = "git commit -m 'texto'" //con este comando podremos hacer una "linea de tiempo" de nuestro archivo con referencias del momento de guardado
 
+let mostrarRegistroCommits = "git log"  //muestra todos los commits hechos
