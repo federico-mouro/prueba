@@ -34,3 +34,15 @@ let subirGitAGithub = "git push origin master"  //todos los archivos, que se enc
 let descargarArchivosGithub = "git clone 'link'"    //abris la terminal en la carpeta en que quieras descargar los archivos y pones este comando con el link que aparece al presionar el botón code de github
 
 let actualizarArchivoDescargadoDeGithub = "git pull origin master"   //baja todos los archivos actualizado, y también descarga nuevos (en caso de haber)
+
+let verRegistroCommits = "git log"
+
+let verRamasLocal = "git branch"  //muestra las ramas que hay en el repositorio local, la que aparece con asterisco es en la que se encuentra actualmente
+
+let verRamasLocalyRemoto = "git branch -a" //muestra las ramas del repo local en verde y en rojo las del remoto
+
+let crearRamaRepoLocal = "git branch -b 'nombre rama'"  //crea una rama local en base a la rama en que se encontraba, y te posiciona en esta nueva automaticamente
+
+let cambiarRama = "git checkout 'nombre rama'"
+
+let mandarArchivosOtraRama = "git push origin 'nombre rama'" //funciona de igual manera que para subirlo a la rama principal
